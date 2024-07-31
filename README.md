@@ -25,8 +25,6 @@ I am a software developer specializing in Java, microservices and DevOps. I am p
 - **Databases:** PostgreSQL, MongoDB, etc.
 - **DevOps tools:** Docker, Kubernetes, Jenkins, etc.
 
-https://github.com/rtase1984/roadmap-java
-
 <!--
 - 💬 Ask me about ...
 - 📫 How to reach me: rtase1984@gmail.com
