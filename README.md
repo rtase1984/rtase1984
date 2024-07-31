@@ -1,7 +1,7 @@
 ## Hi there 👋
 # I'm Ramon
 
-Soy un desarrollador de software especializado en Java, microservicios y DevOps. Me apasiona crear soluciones eficientes y efectivas para problemas complejos.
+I am a software developer specializing in Java, microservices and DevOps. I am passionate about creating efficient and effective solutions to complex problems.
 <!--
 **rtase1984/rtase1984** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -18,12 +18,12 @@ Soy un desarrollador de software especializado en Java, microservicios y DevOps.
 - ⚡ Fun fact: ...
 -->
 
-## 🛠️ Habilidades Técnicas
+## 🛠️ Skills
 
-- **Lenguajes de Programación:** Java, PHP, Python, etc.
+- **Programming Languages:** Java, PHP, Python, etc.
 - **Frameworks:** Spring Boot, Laravel, Django, etc.
-- **Bases de Datos:** PostgreSQL, MongoDB, etc.
-- **Herramientas de DevOps:** Docker, Kubernetes, Jenkins, etc.
+- **Databases: ** PostgreSQL, MongoDB, etc.
+- **DevOps tools:** Docker, Kubernetes, Jenkins, etc.
 
 
 
