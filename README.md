@@ -22,7 +22,7 @@ I am a software developer specializing in Java, microservices and DevOps. I am p
 
 - **Programming Languages:** Java, PHP, Python, etc.
 - **Frameworks:** Spring Boot, Laravel, Django, etc.
-- **Databases: ** PostgreSQL, MongoDB, etc.
+- **Databases:** PostgreSQL, MongoDB, etc.
 - **DevOps tools:** Docker, Kubernetes, Jenkins, etc.
 
 
