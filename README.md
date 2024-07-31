@@ -11,7 +11,9 @@ Soy un desarrollador de software especializado en Java, microservicios y DevOps.
 - 👯 I’m looking to collaborate on ...
 - 🤔 I’m looking for help with ...
 - 💬 Ask me about ...
-- 📫 How to reach me: rtase1984@gmail.com
+- 📫 How to reach me: 
+           - rtase1984@gmail.com
+           - [Linkedin](https://linkedin.com/in/rtase1984)
 - 😄 Pronouns: He/Him
 - ⚡ Fun fact: ...
 -->
@@ -23,9 +25,7 @@ Soy un desarrollador de software especializado en Java, microservicios y DevOps.
 - **Bases de Datos:** PostgreSQL, MongoDB, etc.
 - **Herramientas de DevOps:** Docker, Kubernetes, Jenkins, etc.
 
-## 📈 Estadísticas de GitHub
 
-![Estadísticas de GitHub](https://github-readme-stats.vercel.app/api?username=rtase1984&show_icons=true&theme=radical)
 
 <!--
 - 💬 Ask me about ...
@@ -52,7 +52,7 @@ Breve descripción del proyecto. Incluye las tecnologías utilizadas y los probl
 
 ## 📈 Estadísticas de GitHub
 
-![Estadísticas de GitHub](https://github-readme-stats.vercel.app/api?username=tu-nombre-de-usuario&show_icons=true&theme=radical)
+![Estadísticas de GitHub](https://github-readme-stats.vercel.app/api?username=rtase1984&show_icons=true&theme=radical)
 
 ## 📫 Conéctate Conmigo
 
