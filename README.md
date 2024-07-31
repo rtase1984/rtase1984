@@ -25,7 +25,7 @@ Soy un desarrollador de software especializado en Java, microservicios y DevOps.
 
 ## 📈 Estadísticas de GitHub
 
-![Estadísticas de GitHub](https://github-readme-stats.vercel.app/api?username=tu-nombre-de-usuario&show_icons=true&theme=radical)
+![Estadísticas de GitHub](https://github-readme-stats.vercel.app/api?username=rtase1984&show_icons=true&theme=radical)
 
 <!--
 - 💬 Ask me about ...
