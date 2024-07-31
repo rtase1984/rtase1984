@@ -1,0 +1,335 @@
+/* Estilos Globales */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+    background-color: #ffffff;
+    color: #24292e;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.container {
+    display: flex;
+    background-color: #f6f8fa;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(27, 31, 35, 0.15);
+    overflow: hidden;
+    transition: background-color 0.3s;
+}
+
+/* Barra Lateral */
+.sidebar {
+    background-color: #f6f8fa;
+    width: 250px;
+    padding: 20px;
+    border-right: 1px solid #e1e4e8;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.avatar img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.info {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.info h2 {
+    font-size: 1.5em;
+    color: #0366d6;
+    margin: 0;
+}
+
+.info p {
+    font-size: 1em;
+    color: #586069;
+    margin: 5px 0 0;
+}
+
+/* Contenido Principal */
+.main-content {
+    padding: 20px;
+    width: 500px;
+    background-color: #ffffff;
+    transition: background-color 0.3s;
+}
+
+.projects, .roadmaps {
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0 0 10px;
+    color: #0366d6;
+}
+
+p {
+    font-size: 1em;
+    color: #586069;
+    margin: 0 0 20px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #24292e;
+}
+
+.project, .roadmap-item {
+    background-color: #f6f8fa;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(27, 31, 35, 0.15);
+    border: 1px solid #e1e4e8;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.project h3, .roadmap-item h3 {
+    margin: 0 0 5px;
+    font-size: 1.2em;
+    color: #0366d6;
+}
+
+.project p {
+    margin: 0;
+    color: #586069;
+}
+
+.project a {
+    color: #0366d6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+.roadmap-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.roadmap-item .progress-bar {
+    flex-grow: 1;
+    height: 20px;
+    background-color: #e1e4e8;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-left: 15px;
+    position: relative;
+}
+
+.roadmap-item .progress {
+    height: 100%;
+    background-color: #28a745;
+    text-align: center;
+    color: #fff;
+    line-height: 20px;
+    font-weight: bold;
+    border-radius: 10px 0 0 10px;
+    position: relative;
+    transition: width 0.4s ease;
+}
+
+.roadmap-item h3 {
+    flex-shrink: 0;
+    margin-right: 15px;
+    color: #24292e;
+}
+
+/* Estilos para el Cambiador de Idiomas */
+.language-switcher {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.language-switcher button {
+    background-color: #0366d6;
+    border: none;
+    padding: 10px 15px;
+    font-size: 0.9em;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.language-switcher button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para el idioma activo */
+.language-switcher button.active-language {
+    background-color: #0056b3; /* Fondo ligeramente más oscuro */
+    border: 2px solid #ffffff; /* Borde blanco para el idioma activo */
+    font-weight: bold; /* Negrita para el texto */
+}
+
+/* CSS para el Switch de Tema */
+.theme-switcher {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 34px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input:checked + .slider {
+    background-color: #28a745;
+}
+
+input:checked + .slider:before {
+    transform: translateX(26px);
+}
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+/* Modo Oscuro */
+body.dark-mode {
+    background-color: #0d1117;
+    color: #c9d1d9;
+}
+
+.container.dark-mode {
+    background-color: #161b22;
+}
+
+.sidebar.dark-mode {
+    background-color: #161b22;
+    border-right: 1px solid #30363d;
+}
+
+.main-content.dark-mode {
+    background-color: #0d1117;
+}
+
+.project.dark-mode, .roadmap-item.dark-mode {
+    background-color: #21262d;
+    border: 1px solid #30363d;
+}
+
+.roadmap-item .progress-bar.dark-mode {
+    background-color: #30363d;
+}
+
+.roadmap-item .progress.dark-mode {
+    background-color: #238636;
+}
+
+.language-switcher button.dark-mode {
+    background-color: #21262d;
+    color: #c9d1d9;
+}
+
+.language-switcher button.dark-mode:hover {
+    background-color: #30363d;
+}
+
+/* Estilo para el idioma activo en modo oscuro */
+.language-switcher button.dark-mode.active-language {
+    background-color: #30363d; /* Fondo ligeramente más claro para el idioma activo */
+    border: 2px solid #c9d1d9; /* Borde de color claro */
+    font-weight: bold; /* Negrita para el texto */
+}
+/*
+
+
+
+
+
+
+*/
+/* Estilo común para la lista de contactos */
+.contact-details {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.contact-details li {
+    margin: 10px 0;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Justifica los elementos a la izquierda */
+}
+
+.contact-details i {
+    margin-right: 10px; /* Espacio entre el icono y el texto */
+    font-size: 18px;
+}
+
+/* Estilos para el tema claro */
+.light-theme .contact-details i {
+    color: #333; /* Color del icono para el tema claro */
+}
+
+.light-theme .contact-details a {
+    color: #007bff; /* Color del enlace para el tema claro */
+}
+
+/* Estilos para el tema oscuro */
+.dark-theme .contact-details i {
+    color: #ddd; /* Color del icono para el tema oscuro */
+}
+
+.dark-theme .contact-details a {
+    color: #1e90ff; /* Color del enlace para el tema oscuro */
+}
